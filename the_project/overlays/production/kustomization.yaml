@@ -2,6 +2,16 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
 resources:
-  - ../../base
+- ../../base
 
 namespace: production
+images:
+- name: TODO-APP/IMAGE
+  newName: europe-north1-docker.pkg.dev/dwk-gke-503613/my-repository/todo-app
+  newTag: b1a7be98400ea0f00edbf80e4717af023ea8889a
+- name: TODO-BACKEND/IMAGE
+  newName: europe-north1-docker.pkg.dev/dwk-gke-503613/my-repository/todo-backend
+  newTag: b1a7be98400ea0f00edbf80e4717af023ea8889a
+- name: flhaka/broadcaster
+  newName: europe-north1-docker.pkg.dev/dwk-gke-503613/my-repository/broadcaster
+  newTag: b1a7be98400ea0f00edbf80e4717af023ea8889a
