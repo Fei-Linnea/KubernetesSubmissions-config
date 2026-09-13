@@ -13,10 +13,10 @@ patches:
 images:
 - name: TODO-APP/IMAGE
   newName: europe-north1-docker.pkg.dev/dwk-gke-503613/my-repository/todo-app
-  newTag: a82fd2065f4c5102b3db6a24fea98ab55caaefa5
+  newTag: c636ab6718328b4492dfcbfe9ce7af8e17db25cd
 - name: TODO-BACKEND/IMAGE
   newName: europe-north1-docker.pkg.dev/dwk-gke-503613/my-repository/todo-backend
-  newTag: a82fd2065f4c5102b3db6a24fea98ab55caaefa5
+  newTag: c636ab6718328b4492dfcbfe9ce7af8e17db25cd
 - name: flhaka/broadcaster
   newName: europe-north1-docker.pkg.dev/dwk-gke-503613/my-repository/broadcaster
-  newTag: a82fd2065f4c5102b3db6a24fea98ab55caaefa5
+  newTag: c636ab6718328b4492dfcbfe9ce7af8e17db25cd
