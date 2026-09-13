@@ -8,10 +8,10 @@ namespace: production
 images:
 - name: TODO-APP/IMAGE
   newName: europe-north1-docker.pkg.dev/dwk-gke-503613/my-repository/todo-app
-  newTag: b7942fb135d5ed49921dda7de5f6c714f597316d
+  newTag: a923fe6c30dd4e601593d0f2692961d936cede36
 - name: TODO-BACKEND/IMAGE
   newName: europe-north1-docker.pkg.dev/dwk-gke-503613/my-repository/todo-backend
-  newTag: b7942fb135d5ed49921dda7de5f6c714f597316d
+  newTag: a923fe6c30dd4e601593d0f2692961d936cede36
 - name: flhaka/broadcaster
   newName: europe-north1-docker.pkg.dev/dwk-gke-503613/my-repository/broadcaster
-  newTag: b7942fb135d5ed49921dda7de5f6c714f597316d
+  newTag: a923fe6c30dd4e601593d0f2692961d936cede36
